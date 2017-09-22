@@ -1,0 +1,9 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "fabpot/goutte": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit-selenium": "^1.4"
+    }
+}

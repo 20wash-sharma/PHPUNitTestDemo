@@ -1,0 +1,16 @@
+{
+    "name": "genius/four",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "fabpot/goutte": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit-selenium": "^4.1"
+    },
+    "authors": [
+        {
+            "name": "bishwash sharma",
+            "email": "20wash.sharma@gmail.com"
+        }
+    ]
+}

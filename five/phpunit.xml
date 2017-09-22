@@ -1,0 +1,30 @@
+<phpunit
+   bootstrap="src/Test/bootstrap.php"
+   colors="true">
+
+    <testsuites>
+        <testsuite name="unit">
+            <directory suffix="Test.php">src/Test/Unit</directory>
+        </testsuite>
+    </testsuites>
+    <testsuites>
+        <testsuite name="controller">
+            <directory suffix="Test.php">src/Test/Controller</directory>
+        </testsuite>
+    </testsuites>
+
+    <logging>
+        <log type="coverage-html" target="web/coverage" lowUpperBound="35"
+        highLowerBound="70"/>
+    </logging>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src</directory>
+            <exclude>
+                <directory suffix=".php">src/Test</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+
+</phpunit>
